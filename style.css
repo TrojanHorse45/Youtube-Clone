@@ -1,0 +1,97 @@
+.wrapper {
+    padding: 10px 20px;
+    background-color: black;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos, .search, .notify, .imp {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.imp {
+    gap: 0;
+}
+
+.logos {
+    align-items: baseline;
+}
+
+.utube {
+    display: flex;
+    align-items: baseline;
+}
+
+.utube i {
+    color: red;
+}
+
+#check {
+    display: none;
+}
+
+* {
+    margin: 0;
+    color: white;
+}
+
+.try {
+    height: 30px;
+    width: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px 0px 0px 16px;
+    background-color: black;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.try:focus {
+    /* outline: 1px solid blue; */
+    border-radius: 0;
+    border-left: 0;
+}
+
+.extrasearch {
+    height: 30px;
+    width: 50px;
+    display: none;
+}
+
+.try:focus + .extrasearch {
+    display: block;
+    position:absolute;
+    left: 302px;
+    top: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px 0px 0px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* outline: 1px solid blue; */
+    box-sizing: border-box;
+    border-right: 0;
+}
+
+.searchBtn  button{
+    height: 30px;
+    width: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0px 16px 16px 0px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.mi {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
